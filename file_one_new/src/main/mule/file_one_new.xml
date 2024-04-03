@@ -12,5 +12,6 @@ http://www.mulesoft.org/schema/mule/http http://www.mulesoft.org/schema/mule/htt
 		<http:listener doc:name="Listener" doc:id="ffa88901-0cf2-4d57-82d3-495219805b0f" config-ref="HTTP_Listener_config" path="directory"/>
 		<file:create-directory doc:name="Create directory" doc:id="b5734a80-8c5d-4a47-9375-655ddde57597" directoryPath="C:\Users\devip\OneDrive\Documents\files f"/>
 		<logger level="INFO" doc:name="Logger" doc:id="88babdf9-6a6b-456a-8886-061fa0c3f0c4" />
+		<logger level="INFO" doc:name="Logger" doc:id="29c56cd5-bb94-4618-b24d-7e2f677b5039" message="hi"/>
 	</flow>
 </mule>
