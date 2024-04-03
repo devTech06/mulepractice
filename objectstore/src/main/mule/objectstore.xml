@@ -26,7 +26,11 @@ http://www.mulesoft.org/schema/mule/ee/core http://www.mulesoft.org/schema/mule/
 	<flow name="objectstoreFlow2" doc:id="cc742f45-5d7b-4393-a27a-41d9d4f010ab" >
 		<http:listener doc:name="Listener" doc:id="c321c2cb-c9e4-40cb-88b5-0731020f6c26" config-ref="HTTP_Listener_config" path="ral"/>
 		<os:retrieve-all-keys doc:name="Retrieve all keys" doc:id="669c2bb0-e9be-40f0-9778-a15ce20289be" objectStore="Object_store"/>
+<<<<<<< HEAD
 		<logger level="INFO" doc:name="Logger" doc:id="bc6f0979-9ae5-49c2-91be-6926b18a7623" message="hi"/>
+=======
+		<logger level="INFO" doc:name="Logger" doc:id="6e75a66c-119c-44cd-b772-bf0d49c55fcf" message="welcome"/>		
+>>>>>>> eaea85b89d73c598b8238d9d247e37c8a00f3b81
 	</flow>
 	<flow name="objectstoreFlow3" doc:id="e4ef6e37-1b4d-486b-9ef9-cbc7594dff6b" >
 		<http:listener doc:name="Listener" doc:id="032a0c0d-f17b-4fed-838a-d1dc6b710141" config-ref="HTTP_Listener_config" path="ret"/>
